@@ -17,13 +17,6 @@ class App extends Component {
     this.setState({sideDrawerOpen: false});
   };
 
-  componentDidMount() {
-    window.fetch('api/posts')
-      .then(response => response.json())
-      .then(json => console.log(json))
-      .catch(error => console.log(error))
-  }
-
   render() {
     let backdrop;
 
