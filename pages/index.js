@@ -13,6 +13,7 @@ const index = () => (
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
       <link rel="stylesheet" href="/static/base.css" />
       <title>My next app</title>
+      <meta name="google-site-verification" content="A8Ly5KxY7iwwehMV5jeoVpXYqb1rqbQ1ER5PeiVfthc" />
     </Head>
     < App />
     <div className="App-header">
