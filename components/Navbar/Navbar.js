@@ -12,7 +12,7 @@ const navbar = props => (
         <div className="spacer_nav" />
         <div className="navbar_navigation_items">
             <ul>
-                <li><Link href='/'><a>Products</a></Link></li>
+                <li><Link href='/'><a>Product</a></Link></li>
                 <li><Link href='/about'><a>About</a></Link></li>
             </ul>
         </div>
