@@ -75,7 +75,7 @@ const index = () => (
         <div className="Comp-title">
           <div><h3>Frilans finans</h3></div>
           <div className="comp-spacer" />
-          <div><img src="./static/images/frilans-finans.jpeg" /></div>
+          <div><img src="./static/images/frilans-finans.jpeg" alt="frilans finans" /></div>
         </div>
         <p>Frilans finans var först på den svenska marknaden.</p>
       </div>
@@ -84,7 +84,7 @@ const index = () => (
         <div className="Comp-title">
           <div><h3>Cool company</h3></div>
           <div className="comp-spacer" />
-          <div><img src="./static/images/cool-company.png" /></div>
+          <div><img src="./static/images/cool-company.png" alt="cool company" /></div>
         </div>
         <p>Cool Company var två på den svenska marknaden.</p>
       </div>
@@ -93,7 +93,7 @@ const index = () => (
         <div className="Comp-title">
           <div><h3>Ukko</h3></div>
           <div className="comp-spacer" />
-          <div><img src="./static/images/ukko.png" /></div>
+          <div><img src="./static/images/ukko.png" alt="ukko" /></div>
         </div>
         <p>Ukko är den finska versionen av våra svenska tjänster. De har också en stor del av verksamheten i de andra nrodiska länderna.</p>
       </div>
@@ -102,7 +102,7 @@ const index = () => (
         <div className="Comp-title">
           <div><h3>Firmify</h3></div>
           <div className="comp-spacer" />
-          <div><img src="./static/images/firmify.png" /></div>
+          <div><img src="./static/images/firmify.png" alt="firmify" /></div>
         </div>
         <p>Firmify är en värdig uppstickare till de större aktörerna på svenska marknaden.</p>
       </div>

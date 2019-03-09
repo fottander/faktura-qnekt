@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import SideDrawer from "../SideDrawer/SideDrawer";
 import Backdrop from "../Backdrop/Backdrop";
 
-class App extends Component {
+class App extends React.Component {
   state = {
     sideDrawerOpen: false
   };
@@ -25,11 +25,11 @@ class App extends Component {
     }
 
     return (
-      <div style={{height: '100%'}}>
+      <div className='App-content'>
         <Navbar drawerClickHandler = {this.drawerToggleClickHandler} />
         <SideDrawer show={this.state.sideDrawerOpen}/>
         {backdrop}
-        <main style={{marginTop: '3.5em'}}>
+        <main>
         </main>
       </div>
     );

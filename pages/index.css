@@ -20,6 +20,14 @@ code {
 }
 /** INDEX **/
 
+/** APP JS **/
+
+.App-content {
+  height: 100%;
+}
+
+/** APP JS **/
+
 .App-header {
   height: 80vh;
   background-size: cover;
