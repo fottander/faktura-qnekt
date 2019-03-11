@@ -267,8 +267,23 @@ code {
 
 .Footer-div {
   margin: 1em;
+  width: 30%;
   color: white;
   text-align: center;
+  line-height: 2em;
+  letter-spacing: 0.05em;
+}
+
+.Footer-div a {
+  color: white;
+  text-decoration: underline;
+}
+
+@media (max-width: 45em) {
+  .Footer-div {
+    width: 50%;
+    font-size: 0.8em;
+  }
 }
 
 /** FOOTER **/
@@ -295,7 +310,7 @@ code {
   top: 0;
   left: 0;
   background-color: white;
-  height: 3.5em;
+  height: 4.5em;
   box-shadow: 0 0 20px -5px #000;
 }
 
@@ -314,9 +329,9 @@ code {
 }
 
 .navbar_logo a {
-  color: black;
+  color: #00696a;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .spacer_nav {
