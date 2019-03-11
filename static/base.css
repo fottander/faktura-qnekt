@@ -229,7 +229,8 @@ code {
 }
 
 .navbar_logo {
-  margin-left: 1rem;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 600;
   font-family: 'Futura';
 }
@@ -272,6 +273,9 @@ code {
 }
 
 @media (max-width: 45em) {
+  .spacer_nav {
+    display: none;
+  }
   .navbar_navigation_items {
     display: none;
   }
