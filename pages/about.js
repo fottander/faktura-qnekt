@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import App from '../components/App/App';
+import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
 
 const about = () => (
@@ -13,8 +13,11 @@ const about = () => (
       <title>Om oss - fakturera utan företag som privatperson</title>
       <meta name="description" content="Vill du veta mer om hur man kan fakturera utan företag som privatperson? Vi hjälper dig att jämföra de olika tjänsterna som finns på marknaden samt massor av bra information." />
     </Head>
-    < App />
-    <p>This is the about page</p>
+    < Navbar />
+    <div className="App-header">
+      <h1>Ska du fakturera utan företag som privatperson?</h1>
+      <h4>Så hur kan vi hjälpa dig?</h4>
+    </div>
     < Footer />
   </div>
 )

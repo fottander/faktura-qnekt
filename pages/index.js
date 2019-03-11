@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
-import App from '../components/App/App';
+import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
 
 const index = () => (
@@ -15,7 +15,7 @@ const index = () => (
       <meta name="description" content="Vill du veta mer om hur man kan fakturera utan företag som privatperson? Vi hjälper dig att jämföra de olika tjänsterna som finns på marknaden samt massor av bra information." />
       <meta name="google-site-verification" content="A8Ly5KxY7iwwehMV5jeoVpXYqb1rqbQ1ER5PeiVfthc" />
     </Head>
-    < App />
+    < Navbar />
     <div className="App-header">
       <h1>Ska du fakturera utan företag som privatperson?</h1>
       <h4>Så hur kan vi hjälpa dig?</h4>
