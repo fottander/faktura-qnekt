@@ -65,10 +65,70 @@ code {
 
 @media (max-width: 45em) {
   .Content-divider .Compare {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 0em;
+    padding-right: 0em;
 
   }
+}
+
+#section02 a {
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: -1em;
+}
+
+#section02 .Scrollbutton {
+  color: white;
+  text-align: center;
+  margin-bottom: -1em;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+#section02 a span {
+  position: absolute;
+  top: 2.5rem;
+  width: 46px;
+  height: 46px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+#section02 a span::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin: -12px 0 0 -8px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+
+.demo {
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+.demo a {
+  position: absolute;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.demo a:hover {
+  opacity: .5;
 }
 
 .Content-divider .Compare h2 {

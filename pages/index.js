@@ -66,6 +66,12 @@ const index = () => (
             </tbody>
           </table>
         </div>
+        <section id="section02" class="demo">
+        <div className= "Scrollbutton">
+        Läs mer om varje företag
+        </div>
+          <a href="#comp-1"><span></span></a>
+        </section>
       </div>
     </div>
     <div className="Content-divider-2">
