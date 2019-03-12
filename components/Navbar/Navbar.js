@@ -8,7 +8,7 @@ const navbar = props => (
         <div className="spacer_nav" />
         <div className="navbar_navigation_items">
             <ul>
-                <li><Link href='/'><a>Nyheter</a></Link></li>
+                <li><Link href='/news'><a>Nyheter</a></Link></li>
                 <li><Link href='/about'><a>Om oss</a></Link></li>
             </ul>
         </div>

@@ -38,6 +38,7 @@ code {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-top: 1em;
   padding-right: 0.5em;
   padding-left: 0.5em;
 }
@@ -56,6 +57,19 @@ code {
   justify-content: center;
   align-items: center;
   padding: 3rem 1rem 3rem 1rem;
+}
+
+.App-header-content-news {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  background: #00696a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem 1rem 4rem 1rem;
 }
 
 .Content-divider {
@@ -204,6 +218,19 @@ code {
   width: 8em;
 }
 
+.Content-divider-2 .Comp-divider .Comp-title-news {
+  display: flex;
+  align-items: center;
+}
+
+.Content-divider-2 .Comp-divider .Comp-title-news .comp-spacer {
+  flex: 1;
+}
+
+.Content-divider-2 .Comp-divider .Comp-title-news img {
+  width: 4em;
+}
+
 .Button-row {
   margin-top: 2em;
   display: flex;
@@ -268,6 +295,12 @@ code {
   border-radius: 4px;
 }
 
+@media (max-width: 40em) {
+  .Content-divider-4 .Readmore .Compare-content-1 {
+    font-size: 0.8em;
+  }
+}
+
 .Content-divider-4 .Readmore .Compare-content-1 p {
   color: white;
 }
@@ -285,6 +318,12 @@ code {
   background: #00696a;
   padding: 1em 0.5em 1em 0.5em;
   border-radius: 4px;
+}
+
+@media (max-width: 40em) {
+  .Content-divider-4 .Readmore .Compare-content-2{
+    font-size: 0.8em;
+  }
 }
 
 .Content-divider-4 .Readmore .Compare-content-2 p {

@@ -11,7 +11,7 @@ const footer = props => (
       </div>
       <div className="Footer-div">
         <h4>INFORMATION</h4>
-        <div><Link href='/about'><a>Nyheter & artiklar</a></Link></div>
+        <div><Link href='/news'><a>Nyheter & guider</a></Link></div>
         <div><Link href='/about'><a>Läs mer om oss här</a></Link></div>
         <div>© 2019 Faktura-utan-företag.se</div>
       </div>
