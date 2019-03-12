@@ -83,7 +83,7 @@ const index = () => (
       </div>
     </div>
     <div className="Content-divider-2">
-      <div id="comp-1" />
+      <div className="Anchor" id="comp-1" />
       <div className="Comp-divider">
         <div className="Comp-title">
           <h3>Frilans finans</h3>
@@ -97,7 +97,7 @@ const index = () => (
         <p><strong>Adress:</strong> Frilans Finans, Stora Nygatan 7, 111 27 Stockholm</p>
         <a href="https://www.allabolag.se/5568021199/frilans-finans-sverige-ab" alt="Frilans finans allabolag.se" target="_blank" rel="noopener noreferrer">Allabolag</a>
       </div>
-      <div id="comp-2" />
+      <div className="Anchor" id="comp-2" />
       <div className="Comp-divider">
         <div className="Comp-title">
           <h3>Cool company</h3>
@@ -111,7 +111,7 @@ const index = () => (
         <p><strong>Adress:</strong> Cool Company Skandinavien AB, Riddargatan 7A, 114 35 Stockholm</p>
         <a href="https://www.allabolag.se/5564328390/cool-company-skandinavien-ab" alt="Cool Company allabolag.se" target="_blank" rel="noopener noreferrer">Allabolag</a>
       </div>
-      <div id="comp-3" />
+      <div className="Anchor" id="comp-3" />
       <div className="Comp-divider">
         <div className="Comp-title">
           <h3>Ukko</h3>
@@ -125,7 +125,7 @@ const index = () => (
         <p><strong>Adress:</strong> SLP Group AB, Nortullsgatan 6, 113 29 Stockholm</p>
         <a href="https://www.allabolag.se/5590683198/slp-group-ab" alt="Ukko allabolag.se" target="_blank" rel="noopener noreferrer">Allabolag</a>
       </div>
-      <div id="comp-4" />
+      <div className="Anchor" id="comp-4" />
       <div className="Comp-divider">
         <div className="Comp-title">
           <h3>Firmify</h3>
@@ -200,38 +200,44 @@ const index = () => (
       </div>
     </div>
     <div className="Content-divider-2">
-      <div className="Comp-divider" id="försäkring">
+      <div className="Comp-divider">
+        <div className="Anchor" id="försäkring" />
         <div className="Comp-title">
           <h3>Är jag försäkrad när jag fakturerar utan företag?</h3>
         </div>
         <p>Det är viktigt att du kollar upp exakt hur du ska gå tillväga för att bli försäkrad när du frilansar genom en av tjänsterna. Ibland kan du automatiskt vara skyddad av en försäkring men ibland måste du skicka in en anmälan till tjänsteleverantören innan du utför ett jobb för att täckas av en försäkring.</p>
         <p>När du bestämt dig för den bästa tjänsten för dig så kolla upp i hur du ska göra för att täckas av en försäkring när du ska använda en tjänst för at fakturera utan företag.</p>
       </div>
-      <div className="Comp-divider" id="pension">
+      <div className="Comp-divider">
+        <div className="Anchor" id="pension" />
         <div className="Comp-title">
           <h3>Får jag pension när jag jobbar på detta sättet?</h3>
         </div>
         <p>Om du är mellan 25 och 65 år gammal och använder en av tjänsterna är det obligatoriskt för tjänsteleverantören att betala in pension. Det finns också extratjänster hos vissa av leverantörerna som kan sätta av extra pension(tjänstepension). De kan också hjälpa dig att förmedla kontakter till företag som kan förvalta kapitalet.</p>
       </div>
-      <div className="Comp-divider" id="utbetalning-lön">
+      <div className="Comp-divider">
+        <div className="Anchor" id="utbetalning-lön" />
         <div className="Comp-title">
           <h3>När får jag min lön utbetald?</h3>
         </div>
         <p>Det är olika för varje företag. Kolla upp ovanför vad som gäller för varje leverantör. Vanligtvis får du din lön utbetald när din kund betalat fakturan. Men du kan också få snabbare betalt genom att leverantören får ett godkännande från din kund att du utfört det sagda jobbet.</p>
       </div>
-      <div className="Comp-divider" id="bästa-tjänst">
+      <div className="Comp-divider" >
+        <div className="Anchor" id="bästa-tjänst" />
         <div className="Comp-title">
           <h3>Vilken tjänst är bäst att använda?</h3>
         </div>
         <p>Den slutgiltiga frågan. Ja som vi försökt förmedla med denna sida är det inte svart eller vitt. Vad är viktigast för dig? En smidig tjänst och hemsida eller lägst avgift? Det är den frågan du behöver fråga dig. Det finns också annat som spelar in. Hur enkelt är det att göra avdrag? Hur snabbt kan jag få betalt?</p>
       </div>
-      <div className="Comp-divider" id="lägst-avgift">
+      <div className="Comp-divider" >
+        <div className="Anchor" id="lägst-avgift" />
         <div className="Comp-title">
           <h3>Vem har lägst avgift?</h3>
         </div>
         <p>Den lägsta avgiften just nu är hos Firmify men det finns andra mindre aktörer som kan ge lägre avgift. Men man ska vara försiktig när man väljer en sådan tjänst då det kan finnas dolda avgifter samt att om de inte är så kända så kan din kund tveka med att betala fakturan vilket gör att betalningstiden blir längre. De större aktörerna är kända och kan därför på ett effektivt sätt begära in din betalning snabbt.</p>
       </div>
-      <div className="Comp-divider" id="obetald-faktura">
+      <div className="Comp-divider">
+        <div className="Anchor" id="obetald-faktura" />
         <div className="Comp-title">
           <h3>Vad händer om min kund inte betalar fakturan?</h3>
         </div>

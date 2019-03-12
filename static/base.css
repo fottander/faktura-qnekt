@@ -54,6 +54,13 @@ code {
   font-weight: 900;
 }
 
+.Anchor {
+  display: block;
+height: 115px; /*same height as header*/
+margin-top: -115px; /*same height as header*/
+visibility: hidden;
+}
+
 .App-header-content {
   text-align: center;
   font-size: 16px;
