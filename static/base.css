@@ -44,7 +44,7 @@ code {
 
 @media (max-width: 45em) {
   .App-header {
-    min-height: 90vh;
+    min-height: 95vh;
     padding-top: 4em;
     padding-bottom: 2em;
   }
