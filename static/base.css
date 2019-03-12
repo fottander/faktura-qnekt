@@ -46,6 +46,18 @@ code {
   font-weight: 900;
 }
 
+.App-header-content {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  background: #00696a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem 3rem 1rem;
+}
+
 .Content-divider {
   display: flex;
   background: #fce8e6;
@@ -208,12 +220,42 @@ code {
 
 .Content-divider-3 .Readmore {
   text-align: center;
-  margin: 2em 2em 2em 2em;
   padding: 1em 1em 1em 1em;
 }
 
 .Content-divider-3 .Readmore h3 {
   color: white;
+}
+
+.Content-divider-3 p {
+  color: white;
+}
+
+.Content-divider-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.Content-divider-4 .Readmore {
+  text-align: center;
+  padding: 1em 1em 1em 1em;
+  line-height: 2em;
+}
+
+.Content-divider-4 .Readmore h3 {
+  color: #00696a;
+}
+
+.Content-divider-4 .Readmore a {
+  color: #00696a;
+}
+
+.Content-divider-4 .Readmore span {
+  font-weight: 600;
+  color: #00696a;
 }
 
 #link-1 {

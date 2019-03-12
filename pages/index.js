@@ -24,6 +24,9 @@ const index = () => (
         <a id="button-2" href="#section2">Hur fungerar det</a>
       </div>
     </div>
+    <div className="App-header-content">
+      <strong>Hur fungerar Faktura-utan-företag.se? Vi hjälper dig om du ska börja faktuera utan företag som privatperson. Vi är en opartisk aktör som jämför olika tjänster som finns på svenska marknaden.</strong>
+    </div>
     <div id="section1" />
     <div className="Content-divider">
       <div className="Compare">
@@ -66,11 +69,11 @@ const index = () => (
             </tbody>
           </table>
         </div>
-        <section id="section02" class="demo">
+        <section id="section02" className="demo">
         <div className= "Scrollbutton">
         Läs mer om varje företag
         </div>
-          <a href="#comp-1"><span></span></a>
+          <a href="#comp-1" alt="Läs mer"><span></span></a>
         </section>
       </div>
     </div>
@@ -78,7 +81,7 @@ const index = () => (
       <div id="comp-1" />
       <div className="Comp-divider">
         <div className="Comp-title">
-          <div><h3>Frilans finans</h3></div>
+          <h3>Frilans finans</h3>
           <div className="comp-spacer" />
           <div><img src="./static/images/frilans-finans.jpeg" alt="frilans finans" /></div>
         </div>
@@ -87,7 +90,7 @@ const index = () => (
       <div id="comp-2" />
       <div className="Comp-divider">
         <div className="Comp-title">
-          <div><h3>Cool company</h3></div>
+          <h3>Cool company</h3>
           <div className="comp-spacer" />
           <div><img src="./static/images/cool-company.png" alt="cool company" /></div>
         </div>
@@ -96,7 +99,7 @@ const index = () => (
       <div id="comp-3" />
       <div className="Comp-divider">
         <div className="Comp-title">
-          <div><h3>Ukko</h3></div>
+          <h3>Ukko</h3>
           <div className="comp-spacer" />
           <div><img src="./static/images/ukko.png" alt="ukko" /></div>
         </div>
@@ -105,7 +108,7 @@ const index = () => (
       <div id="comp-4" />
       <div className="Comp-divider">
         <div className="Comp-title">
-          <div><h3>Firmify</h3></div>
+          <h3>Firmify</h3>
           <div className="comp-spacer" />
           <div><img src="./static/images/firmify.png" alt="firmify" /></div>
         </div>
@@ -116,6 +119,49 @@ const index = () => (
     <div className="Content-divider-3">
       <div className="Readmore">
         <h3>Hur fungerar det när man fakturerar utan företag?</h3>
+        <p>Det är väldigt enkelt att komma igång med att fakturera utan företag som privatperson.</p>
+      </div>
+    </div>
+    <div className="Content-divider-4">
+      <div className="Readmore">
+        <h3>Vanliga frågor?</h3>
+        <div><span>+</span><a href="#försäkring">Är jag försäkrad när jag fakturerar utan företag?</a></div>
+        <div><span>+</span><a href="#pension">Får jag pension när jag jobbar på detta sättet?</a></div>
+        <div><span>+</span><a href="#utbetalning-lön">När får jag min lön utbetald?</a></div>
+        <div><span>+</span><a href="#bästa-tjänst">Vilken tjänst är bäst att använda?</a></div>
+        <div><span>+</span><a href="#lägst-avgift">Vem har lägst avgift?</a></div>
+      </div>
+    </div>
+    <div className="Content-divider-2">
+      <div className="Comp-divider" id="försäkring">
+        <div className="Comp-title">
+          <h3>Är jag försäkrad när jag fakturerar utan företag?</h3>
+        </div>
+        <p>Är jag försäkrad när jag fakturerar utan företag?</p>
+      </div>
+      <div className="Comp-divider" id="pension">
+        <div className="Comp-title">
+          <h3>Får jag pension när jag jobbar på detta sättet?</h3>
+        </div>
+        <p>Får jag pension när jag jobbar på detta sättet?</p>
+      </div>
+      <div className="Comp-divider" id="utbetalning-lön">
+        <div className="Comp-title">
+          <h3>När får jag min lön utbetald?</h3>
+        </div>
+        <p>När får jag min lön utbetald?</p>
+      </div>
+      <div className="Comp-divider" id="bästa-tjänst">
+        <div className="Comp-title">
+          <h3>Vilken tjänst är bäst att använda?</h3>
+        </div>
+        <p>Vilken tjänst är bäst att använda?</p>
+      </div>
+      <div className="Comp-divider" id="lägst-avgift">
+        <div className="Comp-title">
+          <h3>Vem har lägst avgift?</h3>
+        </div>
+        <p>Vem har lägst avgift?</p>
       </div>
     </div>
     <Footer />
