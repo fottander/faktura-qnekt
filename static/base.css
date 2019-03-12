@@ -42,7 +42,7 @@ code {
   padding-left: 0.5em;
 }
 
-@media (max-width: 45em) {
+@media (max-width: 40em) {
   .App-header {
     min-height: 95vh;
     padding-top: 4em;
