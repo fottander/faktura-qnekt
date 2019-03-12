@@ -255,6 +255,55 @@ code {
   color: #fd5f53;
 }
 
+.Content-divider-4 .Readmore .Compare-row {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Content-divider-4 .Readmore .Compare-content-1 {
+  background: #fd5f53;
+  padding: 1em 0.5em 1em 0.5em;
+  border-radius: 4px;
+}
+
+.Content-divider-4 .Readmore .Compare-content-1 p {
+  color: white;
+}
+
+.Content-divider-4 .Readmore .Compare-content-1 h4 {
+  color: white;
+}
+
+.Content-divider-4 .Readmore .Compare-content-1 h5 {
+  color: white;
+  text-decoration: underline;
+}
+
+.Content-divider-4 .Readmore .Compare-content-2 {
+  background: #00696a;
+  padding: 1em 0.5em 1em 0.5em;
+  border-radius: 4px;
+}
+
+.Content-divider-4 .Readmore .Compare-content-2 p {
+  color: white;
+}
+
+.Content-divider-4 .Readmore .Compare-content-2 h4 {
+  color: white;
+}
+
+.Content-divider-4 .Readmore .Compare-content-2 h5 {
+  color: white;
+  text-decoration: underline;
+}
+
+.Content-divider-4 .Readmore .Compare-divider {
+  width: 1em;
+}
+
 .Content-divider-4 p {
   color: black;
 }
@@ -270,7 +319,7 @@ code {
 .Content-divider-5 .Readmore {
   text-align: center;
   padding: 1em 1em 1em 1em;
-  line-height: 2em;
+  line-height: 2.2em;
 }
 
 .Content-divider-5 .Readmore h3 {
@@ -283,6 +332,7 @@ code {
 
 .Content-divider-5 .Readmore span {
   font-weight: 600;
+  font-size: 1.8em;
   color: #00696a;
 }
 

@@ -156,18 +156,45 @@ const index = () => (
         <h3>Ska jag starta eget eller fakturera utan företag?</h3>
         <p>Detta är en svår fråga att svara på eftersom allas förutsättningar är olika. Därför ska vi redovisa skillnaderna som utgör grunden för det beslut du måste fatta.</p>
         <p>Det du behöver tänka på innan du fattar beslutet är i vilken grad du ska fakturera. Vilka kunder ska du jobba med? Hur mycket ska du jobba med din business. Handlar det om ett heltidsjobb eller är det endast vid sidan om? Är det så att du ska ha anställda kan vi redan nu säga att starta ett företag helt klart blir bäst. Men du kan såklart använda en faktureringstjänst också genom att din anställd faktuerar genom en sådan också. Det kan också vara ett alternativ att börja med att faktuera som privatperson eller frilansare och om du märker att det går bra så kan du starta en egen firma.</p>
-        <h5>Enkelt förklarat kan vi säga att skilnnaderna är dessa</h5>
+        <p>Enkelt förklarat kan vi säga att skillnaderna är dessa</p>
+        <div className="Compare-row">
+          <div className="Compare-content-1">
+            <h4>Fakturera utan företag</h4>
+            <h5>Fördelar</h5>
+            <p>Inget företag eller F-skatt behövs</p>
+            <p>Du kan börja fakturera idag</p>
+            <p>Minimal administration</p>
+            <p>Ingen bokföring krävs</p>
+            <p>Inkassotjänst ingår</p>
+            <h5>Nackdelar</h5>
+            <p>Det går inte att ha anställda</p>
+            <p>Vissa avdrag går inte att göra</p>
+          </div>
+          <div className="Compare-divider" />
+          <div className="Compare-content-2">
+            <h4>Starta eget bolag</h4>
+            <h5>Fördelar</h5>
+            <p>Går att ha anställda</p>
+            <p>Fler avdragsmöjligheter</p>
+            <h5>Nackdelar</h5>
+            <p>Tar lång tid att komma igång</p>
+            <p>Registrering av företag och F-skatt</p>
+            <p>Kräver bokföringsprogram</p>
+            <p>Extern inkassotjänst</p>
+            <p>Kräver mycket administration</p>
+          </div>
+        </div>
       </div>
     </div>
     <div className="Content-divider-5">
       <div className="Readmore">
         <h3>Vanliga frågor?</h3>
-        <div><span>+</span><a href="#försäkring">Är jag försäkrad när jag fakturerar utan företag?</a></div>
-        <div><span>+</span><a href="#pension">Får jag pension när jag jobbar på detta sättet?</a></div>
-        <div><span>+</span><a href="#utbetalning-lön">När får jag min lön utbetald?</a></div>
-        <div><span>+</span><a href="#bästa-tjänst">Vilken tjänst är bäst att använda?</a></div>
-        <div><span>+</span><a href="#lägst-avgift">Vem har lägst avgift?</a></div>
-        <div><span>+</span><a href="#obetald-faktura">Vad händer om min kund inte betalar fakturan?</a></div>
+        <div><span>+ </span><a href="#försäkring">Är jag försäkrad när jag fakturerar utan företag?</a></div>
+        <div><span>+ </span><a href="#pension">Får jag pension när jag jobbar på detta sättet?</a></div>
+        <div><span>+ </span><a href="#utbetalning-lön">När får jag min lön utbetald?</a></div>
+        <div><span>+ </span><a href="#bästa-tjänst">Vilken tjänst är bäst att använda?</a></div>
+        <div><span>+ </span><a href="#lägst-avgift">Vem har lägst avgift?</a></div>
+        <div><span>+ </span><a href="#obetald-faktura">Vad händer om min kund inte betalar fakturan?</a></div>
       </div>
     </div>
     <div className="Content-divider-2">
