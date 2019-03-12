@@ -10,6 +10,7 @@ const index = () => (
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
       <link rel="stylesheet" href="/static/base.css" />
+      <link rel="icon" href="/static/images/favicon.ico" />
       <title>Bästa tjänsten för fakturera utan företag som privatperson</title>
       <link rel="canonical" href="https://www.faktura-utan-företag.se" />
       <meta name="description" content="Vill du veta mer om hur man kan fakturera utan företag som privatperson och frilansare? Vi hjälper dig som frilansare och egenföretagare att jämföra de olika tjänsterna som finns på marknaden samt massor av bra information." />
