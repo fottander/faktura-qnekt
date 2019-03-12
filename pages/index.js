@@ -24,7 +24,7 @@ const index = () => (
         <a id="button-2" href="#section2">Hur fungerar det</a>
       </div>
       <div className="Button-row">
-        <a id="button-3" href="#section1">Starta eget eller fakturera utan företag?</a>
+        <a id="button-3" href="#section3">Starta eget eller fakturera utan företag?</a>
       </div>
     </div>
     <div className="App-header-content">
@@ -150,6 +150,7 @@ const index = () => (
         <p>Som frilansare eller egenföretagare som inte har ett företag blir detta väldigt mycket smidigare än att sköta allt detta själv. Istället för att starta eget företag, skaffa F-skatt, betala försäkring, avgifter, skatter med mera samt att bokföra blir det oerhrt enkelt att andända en tjänst där du kan fakturera utan företag som privatperson eller frilansare.</p>
       </div>
     </div>
+    <div id="section3" />
     <div className="Content-divider-4">
       <div className="Readmore">
         <h3>Ska jag starta eget eller fakturera utan företag?</h3>
