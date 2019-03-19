@@ -82,6 +82,17 @@ const index = () => (
         </section>
       </div>
     </div>
+    <div className="App-header-content-news">
+      <h3>Egenanställningsföretag i Sverige</h3>
+      <p>Nedanför hittar du alla egenanställningsföretag som är aktiva på den svenska marknaden. Vi skriver lite om varje företag för att du enkelt ska kunna göra ett val som passar dig.</p>
+      <p>Det finns ett flertal företag som sysslar med egenanställning i Sverige. Det finns tre stora aktörer; Frilans Finans, Cool Company och Firmify. Det var också dessa som var först på den svenska marknaden. Det finns många faktorer du som frilansare ska kolla på när du väljer leverantör, inte bara vem som har lägst avgift. Det är viktigt för oss att du får reda på all information som du behöver veta så om du har frågor så får du gärna höra av dig till oss. <strong>Vad kollar vi på när vi jämför?</strong></p>
+      <ul>
+        <li>Avgift</li>
+        <li>Snabba utbetalningar</li>
+        <li>Förmåga att få betalt</li>
+        <li>Användarvänlighet</li>
+      </ul>
+    </div>
     <div className="Content-divider-2">
       <div className="Anchor" id="comp-1" />
       <div className="Comp-divider">
