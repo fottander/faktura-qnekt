@@ -161,7 +161,7 @@ const index = () => (
         <p>Skulle företaget inte betala sin faktura i tid eller om de inte alls betalar den så kommer leverantören(Frilans finans, Cool Company etc) hjälpa dig genom inkasso att få betalt av kunden.</p>
         <p>När du får din lön utbetald så får du det efter skatt, arbetsgivaravgifter, sociala avgifter(pension), försäkring och leverantörens avgift. På en faktura på 10 000 exkl. moms får du ut mellan 5000 och 5200 hos de tjänster vi rekommenderar.</p>
         <p>Som frilansare eller egenanställd som inte har ett företag blir detta väldigt mycket smidigare än att sköta allt detta själv. Istället för att starta eget företag, skaffa F-skatt, betala försäkring, avgifter, skatter med mera samt att bokföra blir det oerhrt enkelt att andända en tjänst där du kan fakturera utan företag som privatperson eller frilansare.</p>
-        <div class="divider" />
+        <div className="divider" />
         <Link href="/vad_ar_egenanstallning"><a id="button-1">Vad är egenanställning?</a></Link>
       </div>
     </div>
