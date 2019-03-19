@@ -217,6 +217,7 @@ visibility: hidden;
 
 .Content-divider-2 .Comp-divider a {
   color: black;
+  text-decoration: underline;
 }
 
 .Content-divider-2 .Comp-divider .Comp-title {
@@ -315,7 +316,8 @@ visibility: hidden;
   }
 }
 
-.Content-divider-4 .Readmore .Compare-content-1 p {
+.Content-divider-4 .Readmore .Compare-content-1 li {
+  text-align: left;
   color: white;
 }
 
@@ -340,8 +342,9 @@ visibility: hidden;
   }
 }
 
-.Content-divider-4 .Readmore .Compare-content-2 p {
+.Content-divider-4 .Readmore .Compare-content-2 li {
   color: white;
+  text-align: left;
 }
 
 .Content-divider-4 .Readmore .Compare-content-2 h4 {

@@ -30,7 +30,7 @@ const index = () => (
       </div>
     </div>
     <div className="App-header-content">
-      <strong>Hur fungerar Faktura-utan-företag.se? Vi hjälper dig om du ska börja faktuera utan företag som privatperson och frilansare. Vi är en opartisk aktör som jämför olika tjänster som finns på svenska marknaden.</strong>
+      <strong>Hur fungerar Faktura-utan-företag.se? Vi hjälper dig om du ska börja faktuera utan företag som privatperson och frilansare. Vi är en opartisk aktör som jämför olika tjänster som finns på svenska marknaden. Målet med denna sida är att hjälpa dig att välja rätt tjänsteleverantör som passar dina behov.</strong>
     </div>
     <div id="section1" />
     <div className="Content-divider">
@@ -92,7 +92,7 @@ const index = () => (
         </div>
         <p>Frilans finans var först på den svenska marknaden. De är 2019 den största aktören med över 1 miljard i omsättning. Deras tjänst har en avgift på 6% och minimibeloppet du kan fakturerar är 500kr.</p>
         <p>Precis som de flesta andra tjänster finns möjligheten att få snabba utbetalningar så länge kunderna till dig som faktuerar godkänner att arbetet blivit utfört.</p>
-        <p>Frilans finans är en väldigt bra tjänst för dig som ska frilansa eller börja faktuera utan företag som privatperson och inte har ett eget företag.</p>
+        <p>Frilans finans är en väldigt bra tjänst för dig som ska frilansa eller börja fakturera utan företag som privatperson och inte har ett eget företag.</p>
         <p><strong>Telefon:</strong> 0771-15 10 00 <strong>Epost:</strong> info@frilansfinans.se</p>
         <p><strong>Adress:</strong> Frilans Finans, Stora Nygatan 7, 111 27 Stockholm</p>
         <a href="https://www.allabolag.se/5568021199/frilans-finans-sverige-ab" alt="Frilans finans allabolag.se" target="_blank" rel="noopener noreferrer">Allabolag</a>
@@ -119,7 +119,7 @@ const index = () => (
           <div><img src="./static/images/ukko.png" alt="ukko" /></div>
         </div>
         <p>Ukko är den finska versionen av våra svenska tjänster. De har också en stor del av verksamheten i de andra nrodiska länderna.</p>
-        <p>Ukko är den nordiska versionen för dig som vill faktuerar utan företag. Som frilansare fungerar denna tjänsten oerhört bra. Det är också väldigt bra för dig som arbetar över landsgränserna i norden.</p>
+        <p>Ukko är den nordiska versionen för dig som ska skicka faktura utan företag. Som frilansare fungerar denna tjänsten oerhört bra. Det är också väldigt bra för dig som arbetar över landsgränserna i norden.</p>
         <p>Ukko har en låg avgift och användarvänligt gränssnitt som enligt oss är oerhört enkelt.</p>
         <p><strong>Telefon:</strong> 010 884 48 98 <strong>Epost:</strong> Kundservice@ukko.se</p>
         <p><strong>Adress:</strong> SLP Group AB, Nortullsgatan 6, 113 29 Stockholm</p>
@@ -144,7 +144,7 @@ const index = () => (
     <div className="Content-divider-3">
       <div className="Readmore">
         <h3>Hur fungerar det när man fakturerar utan företag?</h3>
-        <p>Det är väldigt enkelt att komma igång med att fakturera utan företag som privatperson eller frilansare.</p>
+        <p>Det är väldigt enkelt att komma igång med att skicka fakturor som privatperson eller frilansare om du inte har ett företag.</p>
         <p>Du börjar med att skapa ett konto hos en av de företag vi rekomenderat ovanför. Därefter börjar du mata in dina uppgifter för den faktura och de jobb du genomfört.</p>
         <p>Vanligtvis får du betalt efter att det företag du fakturerat betalt in de belopp din faktura avser. Men du kan också hos de flesta leverantörer få utbetald lön snabbare. Då behöver företaget som du fakturerat godkänna det jobb du genomfört.</p>
         <p>Skulle företaget inte betala sin faktura i tid eller om de inte alls betalar den så kommer leverantören(Frilans finans, Cool Company etc) hjälpa dig genom inkasso att få betalt av kunden.</p>
@@ -163,27 +163,35 @@ const index = () => (
           <div className="Compare-content-1">
             <h4>Fakturera utan företag</h4>
             <h5>Fördelar</h5>
-            <p>Inget företag eller F-skatt behövs</p>
-            <p>Du kan börja fakturera idag</p>
-            <p>Minimal administration</p>
-            <p>Ingen bokföring krävs</p>
-            <p>Inkassotjänst ingår</p>
+            <ul>
+              <li>Inget företag eller F-skatt behövs</li>
+              <li>Du kan börja fakturera idag</li>
+              <li>Minimal administration</li>
+              <li>Ingen bokföring krävs</li>
+              <li>Inkassotjänst ingår</li>
+            </ul>
             <h5>Nackdelar</h5>
-            <p>Det går inte att ha anställda</p>
-            <p>Vissa avdrag går inte att göra</p>
+            <ul>
+              <li>Det går inte att ha anställda</li>
+              <li>Vissa avdrag går inte att göra</li>
+            </ul>
           </div>
           <div className="Compare-divider" />
           <div className="Compare-content-2">
             <h4>Starta eget bolag</h4>
             <h5>Fördelar</h5>
-            <p>Går att ha anställda</p>
-            <p>Fler avdragsmöjligheter</p>
+            <ul>
+              <li>Går att ha anställda</li>
+              <li>Fler avdragsmöjligheter</li>
+            </ul>
             <h5>Nackdelar</h5>
-            <p>Tar lång tid att komma igång</p>
-            <p>Registrering av företag och F-skatt</p>
-            <p>Kräver bokföringsprogram</p>
-            <p>Extern inkassotjänst</p>
-            <p>Kräver mycket administration</p>
+            <ul>
+              <li>Tar lång tid att komma igång</li>
+              <li>Registrering av företag och F-skatt</li>
+              <li>Kräver bokföringsprogram</li>
+              <li>Extern inkassotjänst</li>
+              <li>Kräver mycket administration</li>
+            </ul>
           </div>
         </div>
       </div>
