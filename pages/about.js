@@ -17,7 +17,7 @@ const about = () => (
       <h2>Vi är en jämförelsesajt som hjälper dig när du ska fakturera utan företag</h2>
       <h3>Vi jämför de främsta aktörerna på den svenska marknaden.</h3>
       <h3>Vi skriver också om hur det fungerar när du fakturerar som privatperson.</h3>
-      <h5>Vill du kontakta oss kan du göra det på fakturera-privat@gmail.com</h5>
+      <h5>Vill du kontakta oss kan du göra det på felix@ottander.se</h5>
     </div>
     < Footer />
   </div>
