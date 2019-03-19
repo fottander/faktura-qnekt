@@ -13,7 +13,7 @@ const index = () => (
       <link rel="icon" href="/static/images/favicon.ico" />
       <title>Bästa tjänsten för fakturera utan företag som privatperson</title>
       <link rel="canonical" href="https://www.faktura-utan-företag.se" />
-      <meta name="description" content="Vill du veta mer om hur man kan fakturera utan företag som privatperson och frilansare? Vi hjälper dig som frilansare och egenföretagare att jämföra de olika tjänsterna som finns på marknaden samt massor av bra information." />
+      <meta name="description" content="Vill du veta mer om hur man kan fakturera utan företag som privatperson och frilansare? Vi hjälper dig som frilansare och egenanställd att jämföra de olika tjänsterna som finns på marknaden samt massor av bra information." />
       <meta name="google-site-verification" content="A8Ly5KxY7iwwehMV5jeoVpXYqb1rqbQ1ER5PeiVfthc" />
     </Head>
     < Navbar />
@@ -30,12 +30,12 @@ const index = () => (
       </div>
     </div>
     <div className="App-header-content">
-      <strong>Hur fungerar Faktura-utan-företag.se? Vi hjälper dig om du ska börja faktuera utan företag som privatperson och frilansare. Vi är en opartisk aktör som jämför olika tjänster som finns på svenska marknaden. Målet med denna sida är att hjälpa dig att välja rätt tjänsteleverantör som passar dina behov.</strong>
+      <strong>Hur fungerar Faktura-utan-företag.se? Vi hjälper dig om du ska börja faktuera utan företag som privatperson och frilansare. Vi är en opartisk aktör som jämför olika egenanställningstjänster som finns på svenska marknaden. Målet med denna sida är att hjälpa dig att välja rätt tjänsteleverantör som passar dina behov.</strong>
     </div>
     <div id="section1" />
     <div className="Content-divider">
       <div className="Compare">
-        <h2>Jämför de olika företagen där du kan fakturera utan företag</h2>
+        <h2>Jämför olika företag där du kan fakturera utan företag som egenanställd</h2>
         <div className="Table-holder">
           <table className="table">
             <thead>
@@ -90,7 +90,7 @@ const index = () => (
           <div className="comp-spacer" />
           <div><img src="./static/images/frilans-finans.jpeg" alt="frilans finans" /></div>
         </div>
-        <p>Frilans finans var först på den svenska marknaden. De är 2019 den största aktören med över 1 miljard i omsättning. Deras tjänst har en avgift på 6% och minimibeloppet du kan fakturerar är 500kr.</p>
+        <p>Frilans finans var först på den svenska marknaden inom egenanställning. De är 2019 den största aktören med över 1 miljard i omsättning. Deras tjänst har en avgift på 6% och minimibeloppet du kan fakturerar är 500kr.</p>
         <p>Precis som de flesta andra tjänster finns möjligheten att få snabba utbetalningar så länge kunderna till dig som faktuerar godkänner att arbetet blivit utfört.</p>
         <p>Frilans finans är en väldigt bra tjänst för dig som ska frilansa eller börja fakturera utan företag som privatperson och inte har ett eget företag.</p>
         <p><strong>Telefon:</strong> 0771-15 10 00 <strong>Epost:</strong> info@frilansfinans.se</p>
@@ -104,7 +104,7 @@ const index = () => (
           <div className="comp-spacer" />
           <div><img src="./static/images/cool-company.png" alt="cool company" /></div>
         </div>
-        <p>Cool Company var två på den svenska marknaden. De har snabbt etablerat sig som den näst största tjänsten i Sverige och nordiska marknaden.</p>
+        <p>Cool Company var två på den svenska marknaden inom egenanställning. De har snabbt etablerat sig som den näst största tjänsten i Sverige och nordiska marknaden.</p>
         <p>Precis som Frilans finans kan du få din lön utbetald snabbt om företaget som faktueras godkänner jobbet du genomfört.</p>
         <p>Vill du ha en enkel användarvänlig tjänst med relativt låg avgift så är Cool Company absolut ett alternativ.</p>
         <p><strong>Telefon:</strong> 010-330 30 11 <strong>Epost:</strong> fakturera@coolcompany.com</p>
@@ -144,12 +144,14 @@ const index = () => (
     <div className="Content-divider-3">
       <div className="Readmore">
         <h3>Hur fungerar det när man fakturerar utan företag?</h3>
-        <p>Det är väldigt enkelt att komma igång med att skicka fakturor som privatperson eller frilansare om du inte har ett företag.</p>
+        <p>Det är väldigt enkelt att komma igång som egenanställd med att skicka fakturor som privatperson eller frilansare om du inte har ett företag.</p>
         <p>Du börjar med att skapa ett konto hos en av de företag vi rekomenderat ovanför. Därefter börjar du mata in dina uppgifter för den faktura och de jobb du genomfört.</p>
         <p>Vanligtvis får du betalt efter att det företag du fakturerat betalt in de belopp din faktura avser. Men du kan också hos de flesta leverantörer få utbetald lön snabbare. Då behöver företaget som du fakturerat godkänna det jobb du genomfört.</p>
         <p>Skulle företaget inte betala sin faktura i tid eller om de inte alls betalar den så kommer leverantören(Frilans finans, Cool Company etc) hjälpa dig genom inkasso att få betalt av kunden.</p>
         <p>När du får din lön utbetald så får du det efter skatt, arbetsgivaravgifter, sociala avgifter(pension), försäkring och leverantörens avgift. På en faktura på 10 000 exkl. moms får du ut mellan 5000 och 5200 hos de tjänster vi rekommenderar.</p>
-        <p>Som frilansare eller egenföretagare som inte har ett företag blir detta väldigt mycket smidigare än att sköta allt detta själv. Istället för att starta eget företag, skaffa F-skatt, betala försäkring, avgifter, skatter med mera samt att bokföra blir det oerhrt enkelt att andända en tjänst där du kan fakturera utan företag som privatperson eller frilansare.</p>
+        <p>Som frilansare eller egenanställd som inte har ett företag blir detta väldigt mycket smidigare än att sköta allt detta själv. Istället för att starta eget företag, skaffa F-skatt, betala försäkring, avgifter, skatter med mera samt att bokföra blir det oerhrt enkelt att andända en tjänst där du kan fakturera utan företag som privatperson eller frilansare.</p>
+        <div class="divider" />
+        <Link href="/vad_ar_egenanstallning"><a id="button-1">Vad är egenanställning?</a></Link>
       </div>
     </div>
     <div id="section3" />
@@ -157,7 +159,7 @@ const index = () => (
       <div className="Readmore">
         <h3>Ska jag starta eget eller fakturera utan företag?</h3>
         <p>Detta är en svår fråga att svara på eftersom allas förutsättningar är olika. Därför ska vi redovisa skillnaderna som utgör grunden för det beslut du måste fatta.</p>
-        <p>Det du behöver tänka på innan du fattar beslutet är i vilken grad du ska fakturera. Vilka kunder ska du jobba med? Hur mycket ska du jobba med din business. Handlar det om ett heltidsjobb eller är det endast vid sidan om? Är det så att du ska ha anställda kan vi redan nu säga att starta ett företag helt klart blir bäst. Men du kan såklart använda en faktureringstjänst också genom att din anställd faktuerar genom en sådan också. Det kan också vara ett alternativ att börja med att faktuera som privatperson eller frilansare och om du märker att det går bra så kan du starta en egen firma.</p>
+        <p>Det du behöver tänka på innan du fattar beslutet är i vilken grad du ska fakturera som egenanställd. Vilka kunder ska du jobba med? Hur mycket ska du jobba med din business. Handlar det om ett heltidsjobb eller är det endast vid sidan om? Är det så att du ska ha anställda kan vi redan nu säga att starta ett företag helt klart blir bäst. Men du kan såklart använda en faktureringstjänst också genom att din anställd faktuerar genom en sådan också. Det kan också vara ett alternativ att börja med att faktuera som privatperson eller frilansare och om du märker att det går bra så kan du starta en egen firma.</p>
         <p>Enkelt förklarat kan vi säga att skillnaderna är dessa</p>
         <div className="Compare-row">
           <div className="Compare-content-1">

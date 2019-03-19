@@ -270,6 +270,10 @@ visibility: hidden;
   max-width: 40em;
 }
 
+.Content-divider-3 .Readmore .divider {
+  height: 2em;
+}
+
 .Content-divider-3 .Readmore h3 {
   color: white;
 }
