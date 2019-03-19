@@ -29,7 +29,7 @@ const vad_ar_egenanstallning = () => (
         <p>Man kan enkelt förklara att det är en blandning av att ha ett eget företag och att vara anställd. Skillnaden är att du som privatperson utan företag kan skicka fakturor utan att ha F-skatt.</p>
         <p>Det är alltså en enklare form av att ha eget företag men du slipper mestadelen av administration och bokföring. Du är fortfarande helt ansvarig för ditt eget arbete och dina kunder. Det är perfekt för dig som frilansar, dessa ord går nästan hand i hand. Förr när du var frilansare och hade uppdrag för massor av olika kunder där du inte hade anställning var du tvungen att starta ett eget företag för att kunna fakturera dem. Nu kan du istället låta ett företag fakturera dina kunder, betala skatt, försäkringar och arbetsgivaravgifter med mera.</p>
         <p>Du kan som egenanställd fakturera både företag och privatkunder. Du kan till och med utföra Rut och Rot tjänster. Vanligtvis handlar det om en konsult eller frilansare som inte har tid eller orkar starta ett eget företag eller att det helt enkelt inte är värt mödan. Egenanställningsföretagen är numera så otroligt smidiga att det inte behövs.</p>
-        <div><img src="./static/images/egenanstallning.jpg" alt="Egenanställning" /></div>
+        <div className="egen-img"><img src="./static/images/egenanstallning.jpg" alt="Egenanställning" /></div>
         <h3>Ett bra exempel</h3>
         <p>Du är utvecklar och designar en hemsida för lite olika företag. Du faktuerar 3 gånger i månaden. Du har inte så mycket utgifter när du arbetar förutom din dator och internet.</p>
         <p>Detta är ett perfekt exempel på när en egenanställning kan passa. Det är mycket enklare i detta fall att fakturera genom ett egenanställningsföretag.</p>

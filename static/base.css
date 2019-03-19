@@ -220,6 +220,18 @@ visibility: hidden;
   text-decoration: underline;
 }
 
+.Content-divider-2 .Comp-divider .egen-img img {
+  max-height: 30em;
+  object-fit: cover;
+}
+
+@media (max-width: 40em) {
+  .Content-divider-2 .Comp-divider .egen-img img {
+    width: 110%;
+    margin-left: -3rem;
+  }
+}
+
 .Content-divider-2 .Comp-divider .Comp-title {
   display: flex;
   align-items: center;
