@@ -9,6 +9,7 @@ const navbar = props => (
         <div className="navbar_navigation_items">
             <ul>
                 <li><Link href='/news'><a>Nyheter</a></Link></li>
+                <li><Link href='/vad_ar_egenanstallning'><a>Vad är egenanställning?</a></Link></li>
                 <li><Link href='/about'><a>Om oss</a></Link></li>
             </ul>
         </div>
