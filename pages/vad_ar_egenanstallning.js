@@ -42,6 +42,7 @@ const vad_ar_egenanstallning = () => (
           <li>Du slipper hålla koll på obetalda fakturor.</li>
           <li>Du kan vara säker att du får rätt försäkring, betalar rätt skatt och arbetsgivaravgift, får inbetald pension.</li>
         </ul>
+        <p>Du kan också läsa mer om egenanställningar på <Link href="http://www.egenanstallning.org/"><a>branschorganisationens hemsida</a></Link>. De skriver om de mesta som kan vara bra att veta om ämnet och de nyheter som ständigt kommer. En mycket bra organsiation som stödjer utvecklingen och framväxten i branschen.</p>
       </div>
     </div>
     < Footer />
