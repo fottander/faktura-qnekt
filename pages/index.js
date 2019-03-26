@@ -13,7 +13,7 @@ const index = () => (
       <link rel="icon" href="/static/images/favicon.ico" />
       <title>Bästa tjänsten för fakturera utan företag som privatperson</title>
       <link rel="canonical" href="https://www.faktura-utan-företag.se" />
-      <meta name="description" content="Vill du veta mer om hur man kan fakturera utan företag som privatperson och frilansare? Vi hjälper dig som frilansare och egenanställd att jämföra de olika tjänsterna som finns på marknaden samt massor av bra information." />
+      <meta name="description" content="Börja fakturera utan företag som privatperson och frilansare? Vi hjälper dig som frilansare och egenanställd att jämföra de olika tjänsterna som finns på marknaden samt att vi ger massor av bra information." />
       <meta name="google-site-verification" content="A8Ly5KxY7iwwehMV5jeoVpXYqb1rqbQ1ER5PeiVfthc" />
     </Head>
     < Navbar />
@@ -30,7 +30,7 @@ const index = () => (
       </div>
     </div>
     <div className="App-header-content">
-      <strong>Hur fungerar Faktura-utan-företag.se? Vi hjälper dig om du ska börja faktuera utan företag som privatperson och frilansare. Vi är en opartisk aktör som jämför olika egenanställningstjänster som finns på svenska marknaden. Målet med denna sida är att hjälpa dig att välja rätt tjänsteleverantör som passar dina behov.</strong>
+      <strong>Hur fungerar Faktura-utan-företag.se? Vi hjälper dig om du ska börja fakturera utan företag som privatperson och frilansare. Vi är en opartisk aktör som jämför olika egenanställningsföretag som finns på svenska marknaden. Målet med denna sida är att hjälpa dig att välja rätt tjänsteleverantör som passar dina behov.</strong>
     </div>
     <div id="section1" />
     <div className="Content-divider">
@@ -101,7 +101,7 @@ const index = () => (
           <div className="comp-spacer" />
           <div><img src="./static/images/frilans-finans.jpeg" alt="frilans finans" /></div>
         </div>
-        <p>Frilans finans var först på den svenska marknaden inom egenanställning. De är 2019 den största aktören med över 1 miljard i omsättning. Deras tjänst har en avgift på 6% och minimibeloppet du kan fakturerar är 500kr.</p>
+        <p>Frilans finans var först på den svenska marknaden inom egenanställning. De är 2019 den största aktören med över 1 miljard i omsättning. Deras tjänst har en avgift på 6% och minimibeloppet du kan fakturera är 500kr.</p>
         <p>Precis som de flesta andra tjänster finns möjligheten att få snabba utbetalningar så länge kunderna till dig som faktuerar godkänner att arbetet blivit utfört.</p>
         <p>Frilans finans är en väldigt bra tjänst för dig som ska frilansa eller börja fakturera utan företag som privatperson och inte har ett eget företag.</p>
         <p><strong>Telefon:</strong> 0771-15 10 00 <strong>Epost:</strong> info@frilansfinans.se</p>
@@ -115,7 +115,7 @@ const index = () => (
           <div className="comp-spacer" />
           <div><img src="./static/images/cool-company.png" alt="cool company" /></div>
         </div>
-        <p>Cool Company var två på den svenska marknaden inom egenanställning. De har snabbt etablerat sig som den näst största tjänsten i Sverige och nordiska marknaden.</p>
+        <p>Cool Company var tvåa på den svenska marknaden inom egenanställning. De har snabbt etablerat sig som den näst största tjänsten i Sverige och nordiska marknaden.</p>
         <p>Precis som Frilans finans kan du få din lön utbetald snabbt om företaget som faktueras godkänner jobbet du genomfört.</p>
         <p>Vill du ha en enkel användarvänlig tjänst med relativt låg avgift så är Cool Company absolut ett alternativ.</p>
         <p><strong>Telefon:</strong> 010-330 30 11 <strong>Epost:</strong> fakturera@coolcompany.com</p>
@@ -129,7 +129,7 @@ const index = () => (
           <div className="comp-spacer" />
           <div><img src="./static/images/ukko.png" alt="ukko" /></div>
         </div>
-        <p>Ukko är den finska versionen av våra svenska tjänster. De har också en stor del av verksamheten i de andra nrodiska länderna.</p>
+        <p>Ukko är den finska versionen av våra svenska tjänster. De har också en stor del av verksamheten i de andra nordiska länderna.</p>
         <p>Ukko är den nordiska versionen för dig som ska skicka faktura utan företag. Som frilansare fungerar denna tjänsten oerhört bra. Det är också väldigt bra för dig som arbetar över landsgränserna i norden.</p>
         <p>Ukko har en låg avgift och användarvänligt gränssnitt som enligt oss är oerhört enkelt.</p>
         <p><strong>Telefon:</strong> 010 884 48 98 <strong>Epost:</strong> Kundservice@ukko.se</p>
@@ -145,7 +145,7 @@ const index = () => (
         </div>
         <p>Firmify är en värdig uppstickare till de större aktörerna på svenska marknaden.</p>
         <p>Firmify har väldigt snabbt vuxit på den svenska marknaden och är just nu tredje största aktör. De har riktat sig till frilansare inom kreativa yrken.</p>
-        <p>Firmify har en riktigt bra och låg avgift och deras tjänst är väldigt smidig och enkel att använda, samtidigt som du kan få extra avdrag för resor med mera och sanbba utbetalningar.</p>
+        <p>Firmify har en riktigt bra och låg avgift och deras tjänst är väldigt smidig och enkel att använda, samtidigt som du kan få extra avdrag för resor med mera och snabba utbetalningar.</p>
         <p><strong>Telefon:</strong> 010-490 10 07 <strong>Epost:</strong> info@firmify.se</p>
         <p><strong>Adress:</strong> Firmify AB, Box 120, 391 21 Kalmar</p>
         <a href="https://www.allabolag.se/5568498405/firmify-ab" alt="Firmify allabolag.se" target="_blank" rel="noopener noreferrer">Allabolag</a>
@@ -160,7 +160,7 @@ const index = () => (
         <p>Vanligtvis får du betalt efter att det företag du fakturerat betalt in de belopp din faktura avser. Men du kan också hos de flesta leverantörer få utbetald lön snabbare. Då behöver företaget som du fakturerat godkänna det jobb du genomfört.</p>
         <p>Skulle företaget inte betala sin faktura i tid eller om de inte alls betalar den så kommer leverantören(Frilans finans, Cool Company etc) hjälpa dig genom inkasso att få betalt av kunden.</p>
         <p>När du får din lön utbetald så får du det efter skatt, arbetsgivaravgifter, sociala avgifter(pension), försäkring och leverantörens avgift. På en faktura på 10 000 exkl. moms får du ut mellan 5000 och 5200 hos de tjänster vi rekommenderar.</p>
-        <p>Som frilansare eller egenanställd som inte har ett företag blir detta väldigt mycket smidigare än att sköta allt detta själv. Istället för att starta eget företag, skaffa F-skatt, betala försäkring, avgifter, skatter med mera samt att bokföra blir det oerhrt enkelt att andända en tjänst där du kan fakturera utan företag som privatperson eller frilansare.</p>
+        <p>Som frilansare eller egenanställd som inte har ett företag blir detta väldigt mycket smidigare än att sköta allt detta själv. Istället för att starta eget företag, skaffa F-skatt, betala försäkring, avgifter, skatter med mera samt att bokföra blir det oerhört enkelt att använda en tjänst där du kan fakturera utan företag som privatperson eller frilansare.</p>
         <div className="divider" />
         <Link href="/vad_ar_egenanstallning"><a id="button-1">Vad är egenanställning?</a></Link>
       </div>
@@ -227,7 +227,7 @@ const index = () => (
           <h3>Är jag försäkrad när jag fakturerar utan företag?</h3>
         </div>
         <p>Det är viktigt att du kollar upp exakt hur du ska gå tillväga för att bli försäkrad när du frilansar genom en av tjänsterna. Ibland kan du automatiskt vara skyddad av en försäkring men ibland måste du skicka in en anmälan till tjänsteleverantören innan du utför ett jobb för att täckas av en försäkring.</p>
-        <p>När du bestämt dig för den bästa tjänsten för dig så kolla upp i hur du ska göra för att täckas av en försäkring när du ska använda en tjänst för at fakturera utan företag.</p>
+        <p>När du bestämt dig för den bästa tjänsten för dig så kolla upp hur du ska göra för att täckas av en försäkring när du ska använda en tjänst för att fakturera utan företag.</p>
       </div>
       <div className="Comp-divider">
         <div className="Anchor" id="pension" />

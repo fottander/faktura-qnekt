@@ -25,9 +25,9 @@ const news = () => (
           <div className="comp-spacer" />
           <div><img src="./static/images/logga-faktura.png" alt="Faktura-utan-företag.se" /></div>
         </div>
-        <p>Den mest växande arbetsformen i Sverige just nu är egenanställning eller frilansande som det kallas i folkmun. bara det största bolaget i Sverige omsätter över en miljard kronor.</p>
+        <p>Den mest växande arbetsformen i Sverige just nu är egenanställning eller frilansande som det kallas i folkmun. Bara det största bolaget i Sverige omsätter över en miljard kronor.</p>
         <p>Det kan därför vara lite svårt att välja rätt bland alla de företag som just nu finns på marknaden. Det är heller inte helt lätt att veta hur det fungerar och om det passar just din verksamhet.</p>
-        <p>Just därför startade vi Faktura-utan-företag.se som är en jämförelestjänst och informationssida som behandlar alla de provlem man kan tänkas ställas för. Vi är en opartisk aktör som strävar efter att ge de bästa tipsen och jämförelserna.</p>
+        <p>Just därför startade vi Faktura-utan-företag.se som är en jämförelestjänst och informationssida som behandlar alla de problem man kan tänkas ställas för. Vi är en opartisk aktör som strävar efter att ge de bästa tipsen och jämförelserna.</p>
         <div><Link href='/'><a>Fakturera utan företag som privatperson eller frilansare</a></Link></div>
       </div>
     </div>
