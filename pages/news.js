@@ -7,11 +7,11 @@ import Link from 'next/link';
 const news = () => (
   <div>
     <Head>
+      <title>Nyheter och guider - fakturera utan företag</title>
+      <meta name="description" content="Alla senaste nyheterna och guiderna om hur du kan fakturera utan företag som privatperson eller frilansare." />
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
       <link rel="stylesheet" href="/static/base.css" />
-      <title>Nyheter och guider - fakturera utan företag</title>
-      <meta name="description" content="Alla senaste nyheterna och guiderna om hur du kan fakturera utan företag som privatperson eller frilansare." />
     </Head>
     < Navbar />
     <div className="App-header-content-news">

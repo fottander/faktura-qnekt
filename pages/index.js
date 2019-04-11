@@ -7,13 +7,14 @@ import Footer from '../components/Footer/Footer';
 const index = () => (
   <div>
     <Head>
+      <meta name="description" content="Börja fakturera utan företag som privatperson och frilansare? Vi hjälper dig som frilansare och egenanställd att jämföra de olika tjänsterna som finns på marknaden samt att vi ger massor av bra information." />
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <meta name="language" content="Swedish" />
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
       <link rel="stylesheet" href="/static/base.css" />
       <link rel="icon" href="/static/images/favicon.ico" />
       <title>Bästa tjänsten för fakturera utan företag som privatperson</title>
       <link rel="canonical" href="https://www.faktura-utan-företag.se" />
-      <meta name="description" content="Börja fakturera utan företag som privatperson och frilansare? Vi hjälper dig som frilansare och egenanställd att jämföra de olika tjänsterna som finns på marknaden samt att vi ger massor av bra information." />
       <meta name="google-site-verification" content="A8Ly5KxY7iwwehMV5jeoVpXYqb1rqbQ1ER5PeiVfthc" />
     </Head>
     < Navbar />
@@ -156,7 +157,7 @@ const index = () => (
       <div className="Readmore">
         <h3>Hur fungerar det när man fakturerar utan företag?</h3>
         <p>Det är väldigt enkelt att komma igång som egenanställd med att skicka fakturor som privatperson eller frilansare om du inte har ett företag.</p>
-        <p>Du börjar med att skapa ett konto hos en av de företag vi rekomenderat ovanför. Därefter börjar du mata in dina uppgifter för den faktura och de jobb du genomfört.</p>
+        <p>Du börjar med att skapa ett konto hos en av de företag vi rekomenderat ovanför. Därefter börjar du mata in dina uppgifter för den faktura och de jobb du genomfört. Glöm inte att hos de flesta aktörer så bör du skicka in en beskrivning av de jobb du ska utföra innan du börjar utföra jobbet. Annars kan det vara så att du är oförsäkrad under tiden du frilansar.</p>
         <p>Vanligtvis får du betalt efter att det företag du fakturerat betalt in de belopp din faktura avser. Men du kan också hos de flesta leverantörer få utbetald lön snabbare. Då behöver företaget som du fakturerat godkänna det jobb du genomfört.</p>
         <p>Skulle företaget inte betala sin faktura i tid eller om de inte alls betalar den så kommer leverantören(Frilans finans, Cool Company etc) hjälpa dig genom inkasso att få betalt av kunden.</p>
         <p>När du får din lön utbetald så får du det efter skatt, arbetsgivaravgifter, sociala avgifter(pension), försäkring och leverantörens avgift. På en faktura på 10 000 exkl. moms får du ut mellan 5000 och 5200 hos de tjänster vi rekommenderar.</p>
@@ -226,7 +227,7 @@ const index = () => (
         <div className="Comp-title">
           <h3>Är jag försäkrad när jag fakturerar utan företag?</h3>
         </div>
-        <p>Det är viktigt att du kollar upp exakt hur du ska gå tillväga för att bli försäkrad när du frilansar genom en av tjänsterna. Ibland kan du automatiskt vara skyddad av en försäkring men ibland måste du skicka in en anmälan till tjänsteleverantören innan du utför ett jobb för att täckas av en försäkring.</p>
+        <p>Det är viktigt att du kollar upp exakt hur du ska gå tillväga för att bli försäkrad när du frilansar genom en av tjänsterna. Ibland kan du automatiskt vara skyddad av en försäkring men ibland måste du skicka in en anmälan till tjänsteleverantören innan du utför ett jobb för att täckas av en försäkring. Det kan bestå av en kort beskrivning av det jobb som ska utföras eller var exakt du ska frilansa.</p>
         <p>När du bestämt dig för den bästa tjänsten för dig så kolla upp hur du ska göra för att täckas av en försäkring när du ska använda en tjänst för att fakturera utan företag.</p>
       </div>
       <div className="Comp-divider">
@@ -249,6 +250,7 @@ const index = () => (
           <h3>Vilken tjänst är bäst att använda?</h3>
         </div>
         <p>Den slutgiltiga frågan. Ja som vi försökt förmedla med denna sida är det inte svart eller vitt. Vad är viktigast för dig? En smidig tjänst och hemsida eller lägst avgift? Det är den frågan du behöver fråga dig. Det finns också annat som spelar in. Hur enkelt är det att göra avdrag? Hur snabbt kan jag få betalt?</p>
+        <p>Det är därför inte helt lätt att svara på för dina behov är annorlunda än andras och därför passar olika tjänster olika behov.</p>
       </div>
       <div className="Comp-divider" >
         <div className="Anchor" id="lägst-avgift" />

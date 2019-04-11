@@ -7,11 +7,11 @@ import Link from 'next/link';
 const vad_ar_egenanstallning = () => (
   <div>
     <Head>
+      <title>Vad är egenanställning - Faktura-utan-företag.se</title>
+      <meta name="description" content="Vad menas egentligen med egenanställing och ur funkar det när du arbetar som egenanställd?" />
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
       <link rel="stylesheet" href="/static/base.css" />
-      <title>Vad är egenanställning - Faktura-utan-företag.se</title>
-      <meta name="description" content="Vad menas egentligen med egenanställing och ur funkar det när du arbetar som egenanställd?" />
     </Head>
     < Navbar />
     <div className="App-header-content-news">
