@@ -86,7 +86,7 @@ const index = () => (
       </div>
     </div>
     <div className="App-header-content-news">
-      <h3>Egenanställningsföretag i Sverige</h3>
+      <h2>Egenanställningsföretag i Sverige</h2>
       <p>Nedanför hittar du alla egenanställningsföretag som är aktiva på den svenska marknaden. Vi skriver lite om varje företag för att du enkelt ska kunna göra ett val som passar dig.</p>
       <p>Det finns ett flertal företag som sysslar med egenanställning i Sverige. Det finns tre stora aktörer; Frilans Finans, Cool Company och Firmify. Det var också dessa som var först på den svenska marknaden. Det finns många faktorer du som frilansare ska kolla på när du väljer leverantör, inte bara vem som har lägst avgift. Det är viktigt för oss att du får reda på all information som du behöver veta så om du har frågor så får du gärna höra av dig till oss. <strong>Vad kollar vi på när vi jämför?</strong></p>
       <ul>
@@ -157,7 +157,7 @@ const index = () => (
     <div id="section2" />
     <div className="Content-divider-3">
       <div className="Readmore">
-        <h3>Hur fungerar det när man fakturerar utan företag?</h3>
+        <h2>Hur fungerar det när man fakturerar utan företag?</h2>
         <p>Det är väldigt enkelt att komma igång som egenanställd med att skicka fakturor som privatperson eller frilansare om du inte har ett företag.</p>
         <p>Du börjar med att skapa ett konto hos en av de företag vi rekomenderat ovanför. Därefter börjar du mata in dina uppgifter för den faktura och de jobb du genomfört. Glöm inte att hos de flesta aktörer så bör du skicka in en beskrivning av de jobb du ska utföra innan du börjar utföra jobbet. Annars kan det vara så att du är oförsäkrad under tiden du frilansar.</p>
         <p>Vanligtvis får du betalt efter att det företag du fakturerat betalt in de belopp din faktura avser. Men du kan också hos de flesta leverantörer få utbetald lön snabbare. Då behöver företaget som du fakturerat godkänna det jobb du genomfört.</p>
@@ -171,7 +171,7 @@ const index = () => (
     <div id="section3" />
     <div className="Content-divider-4">
       <div className="Readmore">
-        <h3>Ska jag starta eget eller fakturera utan företag?</h3>
+        <h2>Ska jag starta eget eller fakturera utan företag?</h2>
         <p>Detta är en svår fråga att svara på eftersom allas förutsättningar är olika. Därför ska vi redovisa skillnaderna som utgör grunden för det beslut du måste fatta.</p>
         <p>Det du behöver tänka på innan du fattar beslutet är i vilken grad du ska fakturera som egenanställd. Vilka kunder ska du jobba med? Hur mycket ska du jobba med din business. Handlar det om ett heltidsjobb eller är det endast vid sidan om? Är det så att du ska ha anställda kan vi redan nu säga att starta ett företag helt klart blir bäst. Men du kan såklart använda en faktureringstjänst också genom att din anställd faktuerar genom en sådan också. Det kan också vara ett alternativ att börja med att faktuera som privatperson eller frilansare och om du märker att det går bra så kan du starta en egen firma.</p>
         <p>Enkelt förklarat kan vi säga att skillnaderna är dessa</p>
