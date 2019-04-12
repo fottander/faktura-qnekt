@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
+import Layout from '../components/Layout'
 
 const index = () => (
   <div>
@@ -16,16 +17,8 @@ const index = () => (
       <title>Bästa tjänsten för fakturera utan företag som privatperson</title>
       <link rel="canonical" href="https://www.faktura-utan-företag.se" />
       <meta name="google-site-verification" content="A8Ly5KxY7iwwehMV5jeoVpXYqb1rqbQ1ER5PeiVfthc" />
-      <script
-        dangerouslySetInnerHTML={{
-        __html: `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-138218716-1');
-      `}}
-      />
     </Head>
+    <Layout>
     < Navbar />
     <div className="App-header">
       <h1>Ska du fakturera utan företag som privatperson?</h1>
@@ -277,6 +270,7 @@ const index = () => (
       </div>
     </div>
     <Footer />
+    </Layout>
   </div>
 )
 
