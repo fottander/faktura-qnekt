@@ -86,6 +86,12 @@ visibility: hidden;
   padding: 8rem 1rem 4rem 1rem;
 }
 
+@media (max-width: 40em) {
+  .App-header-content-news {
+    padding: 5rem 2rem 4rem 2rem;
+  }
+}
+
 .App-header-content-news ul {
   margin-left: -2em;
 }
@@ -111,7 +117,6 @@ visibility: hidden;
   .Content-divider .Compare {
     padding-left: 0em;
     padding-right: 0em;
-
   }
 }
 
@@ -294,6 +299,10 @@ visibility: hidden;
   color: white;
 }
 
+.Content-divider-3 .Readmore h2 {
+  color: white;
+}
+
 .Content-divider-3 p {
   color: white;
 }
@@ -314,6 +323,10 @@ visibility: hidden;
 }
 
 .Content-divider-4 .Readmore h3 {
+  color: #fd5f53;
+}
+
+.Content-divider-4 .Readmore h2 {
   color: #fd5f53;
 }
 
