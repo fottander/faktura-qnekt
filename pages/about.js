@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
+import Layout from '../components/Layout'
 
 const about = () => (
   <div>
@@ -12,6 +13,7 @@ const about = () => (
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
       <link rel="stylesheet" href="/static/base.css" />
     </Head>
+    <Layout>
     < Navbar />
     <div className="App-header">
       <h2>Vi är en jämförelsesajt som hjälper dig när du ska fakturera utan företag</h2>
@@ -20,6 +22,7 @@ const about = () => (
       <h5>Vill du kontakta oss kan du göra det på felix@ottander.se</h5>
     </div>
     < Footer />
+    </Layout>
   </div>
 )
 

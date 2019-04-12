@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
 import Link from 'next/link';
+import Layout from '../components/Layout'
 
 const news = () => (
   <div>
@@ -13,6 +14,7 @@ const news = () => (
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
       <link rel="stylesheet" href="/static/base.css" />
     </Head>
+    <Layout>
     < Navbar />
     <div className="App-header-content-news">
       <h2>Nyheter & guider</h2>
@@ -32,6 +34,7 @@ const news = () => (
       </div>
     </div>
     < Footer />
+    </Layout>
   </div>
 )
 
