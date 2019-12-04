@@ -153,8 +153,8 @@ const index = () => (
           <div><img src="./static/images/cansolo.png" alt="cansolo" /></div>
         </div>
         <p>Cansolo har grundats av två entrepenörer som har verklig koll på löner och anställningar.</p>
-        <p>På så sätt har de lyckats skapa ett riktigt en riktigt bra tjänst för er som vill frilansa och faktuera utan krångel.</p>
-        <p>Det bästa med Cansolo är deras låga avgift på 3.95%. Det är en betydligt lägre avgift än de större aktörerna på marknaden. Inte nog med det är deras system väldigt enkelt att använda och allt ingår som expressutbetalning, bra försäkringar med mera.</p>
+        <p>På så sätt har de lyckats skapa en riktigt bra tjänst för er som vill frilansa och fakturera utan krångel till en låg avgift.</p>
+        <p>Det bästa med Cansolo är deras låga avgift på 3.95% som är under snittet på den svenska marknaden. Det är en betydligt lägre avgift än de större aktörerna. Inte nog med det är deras system väldigt enkelt att använda och allt ingår som expressutbetalning, bra försäkringar med mera.</p>
         <p><strong>Telefon:</strong> 08-220 256 <strong>Epost:</strong> info@cansolo.se</p>
         <p><strong>Adress:</strong> Cansolo AB, Katarinavägen 14, 116 45 Stockholm</p>
         <a href="https://www.allabolag.se/5590773593/cansolo-ab" alt="Cansolo allabolag.se" target="_blank" rel="noopener noreferrer">Allabolag</a>
