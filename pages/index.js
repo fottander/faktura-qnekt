@@ -69,7 +69,13 @@ const index = () => (
                 <td>5007</td>
               </tr>
               <tr>
-                <th scope="row"><a id="link-1" href="#comp-4">Firmify</a></th>
+                <th scope="row"><a id="link-1" href="#comp-4">Cansolo</a></th>
+                <td>3.95%</td>
+                <td>1000</td>
+                <td>5166</td>
+              </tr>
+              <tr>
+                <th scope="row"><a id="link-1" href="#comp-5">Firmify</a></th>
                 <td>5%</td>
                 <td>1000</td>
                 <td>5060</td>
@@ -140,6 +146,20 @@ const index = () => (
         <a href="https://www.allabolag.se/5590683198/slp-group-ab" alt="Ukko allabolag.se" target="_blank" rel="noopener noreferrer">Allabolag</a>
       </div>
       <div className="Anchor" id="comp-4" />
+      <div className="Comp-divider">
+        <div className="Comp-title">
+          <h3>Cansolo</h3>
+          <div className="comp-spacer" />
+          <div><img src="./static/images/cansolo.png" alt="cansolo" /></div>
+        </div>
+        <p>Cansolo har grundats av två entrepenörer som har verklig koll på löner och anställningar.</p>
+        <p>På så sätt har de lyckats skapa ett riktigt en riktigt bra tjänst för er som vill frilansa och faktuera utan krångel.</p>
+        <p>Det bästa med Cansolo är deras låga avgift på 3.95%. Det är en betydligt lägre avgift än de större aktörerna på marknaden. Inte nog med det är deras system väldigt enkelt att använda och allt ingår som expressutbetalning, bra försäkringar med mera.</p>
+        <p><strong>Telefon:</strong> 08-220 256 <strong>Epost:</strong> info@cansolo.se</p>
+        <p><strong>Adress:</strong> Cansolo AB, Katarinavägen 14, 116 45 Stockholm</p>
+        <a href="https://www.allabolag.se/5590773593/cansolo-ab" alt="Cansolo allabolag.se" target="_blank" rel="noopener noreferrer">Allabolag</a>
+      </div>
+      <div className="Anchor" id="comp-5" />
       <div className="Comp-divider">
         <div className="Comp-title">
           <h3>Firmify</h3>
