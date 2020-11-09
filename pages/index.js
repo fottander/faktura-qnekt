@@ -17,6 +17,10 @@ const index = () => (
       <title>Bästa tjänsten för fakturera utan företag som privatperson</title>
       <link rel="canonical" href="https://www.faktura-utan-företag.se" />
       <meta name="google-site-verification" content="A8Ly5KxY7iwwehMV5jeoVpXYqb1rqbQ1ER5PeiVfthc" />
+      <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          ></script>
     </Head>
     <Layout>
     < Navbar />
