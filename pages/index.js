@@ -111,6 +111,10 @@ const index = () => (
           <div className="comp-spacer" />
           <div><img src="./static/images/frilans-finans.jpeg" alt="frilans finans" /></div>
         </div>
+        <div className="Star-ratings-sprite" alt="4,7 stjärnor">
+          <span className="Star-ratings-sprite-rating-frilans"></span>
+        </div>
+        <p className="Rating-comp">4,7 av 5 på Trustpilot</p>
         <p>Frilans finans var först på den svenska marknaden inom egenanställning. De är 2019 den största aktören med över 1 miljard i omsättning. Deras tjänst har en avgift på 6% och minimibeloppet du kan fakturera är 500kr.</p>
         <p>Precis som de flesta andra tjänster finns möjligheten att få snabba utbetalningar så länge kunderna till dig som faktuerar godkänner att arbetet blivit utfört.</p>
         <p>Frilans finans är en väldigt bra tjänst för dig som ska frilansa eller börja fakturera utan företag som privatperson och inte har ett eget företag.</p>
@@ -125,6 +129,10 @@ const index = () => (
           <div className="comp-spacer" />
           <div><img src="./static/images/cool-company.png" alt="cool company" /></div>
         </div>
+        <div className="Star-ratings-sprite" alt="4,6 stjärnor">
+          <span className="Star-ratings-sprite-rating-cool"></span>
+        </div>
+        <p className="Rating-comp">4,6 av 5 på Trustpilot</p>
         <p>Cool Company var tvåa på den svenska marknaden inom egenanställning. De har snabbt etablerat sig som den näst största tjänsten i Sverige och nordiska marknaden.</p>
         <p>Precis som Frilans finans kan du få din lön utbetald snabbt om företaget som faktueras godkänner jobbet du genomfört.</p>
         <p>Vill du ha en enkel användarvänlig tjänst med relativt låg avgift så är Cool Company absolut ett alternativ.</p>
@@ -139,6 +147,10 @@ const index = () => (
           <div className="comp-spacer" />
           <div><img src="./static/images/ukko.png" alt="ukko" /></div>
         </div>
+        <div className="Star-ratings-sprite" alt="4,2 stjärnor">
+          <span className="Star-ratings-sprite-rating-ukko"></span>
+        </div>
+        <p className="Rating-comp">4,2 av 5 på Trustpilot</p>
         <p>Ukko är den finska versionen av våra svenska tjänster. De har också en stor del av verksamheten i de andra nordiska länderna.</p>
         <p>Ukko är den nordiska versionen för dig som ska skicka faktura utan företag. Som frilansare fungerar denna tjänsten oerhört bra. Det är också väldigt bra för dig som arbetar över landsgränserna i norden.</p>
         <p>Ukko har en låg avgift och användarvänligt gränssnitt som enligt oss är oerhört enkelt.</p>
@@ -153,6 +165,10 @@ const index = () => (
           <div className="comp-spacer" />
           <div><img src="./static/images/cansolo.png" alt="cansolo" /></div>
         </div>
+        <div className="Star-ratings-sprite" alt="4,0 stjärnor">
+          <span className="Star-ratings-sprite-rating-cansolo"></span>
+        </div>
+        <p className="Rating-comp">4 av 5 på Google</p>
         <p>Cansolo har grundats av två entrepenörer som har verklig koll på löner och anställningar.</p>
         <p>På så sätt har de lyckats skapa en riktigt bra tjänst för er som vill frilansa och fakturera utan krångel till en låg avgift.</p>
         <p>Det bästa med Cansolo är deras låga avgift på 3.95% som är under snittet på den svenska marknaden. Det är en betydligt lägre avgift än de större aktörerna. Inte nog med det är deras system väldigt enkelt att använda och allt ingår som expressutbetalning, bra försäkringar med mera.</p>

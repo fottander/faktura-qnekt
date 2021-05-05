@@ -1,4 +1,5 @@
 /** INDEX **/
+
 html {
   height: 100%;
 }
@@ -265,6 +266,56 @@ visibility: hidden;
 
 .Content-divider-2 .Comp-divider .Comp-title-news img {
   width: 4em;
+}
+
+.Star-ratings-sprite {
+  background: url(./images/star-rating-sprite.png); repeat-x;
+  font-size: 0;
+  height: 23px;
+  line-height: 0;
+  overflow: hidden;
+  text-indent: -999em;
+  width: 110px;
+}
+
+.Star-ratings-sprite-rating-frilans {
+  width: 94%;
+  background: url(./images/star-rating-sprite.png); repeat-x;
+  background-position: 0 100%;
+  float: left;
+  height: 21px;
+  display:block;
+}
+
+.Star-ratings-sprite-rating-cool {
+  width: 92%;
+  background: url(./images/star-rating-sprite.png); repeat-x;
+  background-position: 0 100%;
+  float: left;
+  height: 21px;
+  display:block;
+}
+
+.Star-ratings-sprite-rating-ukko {
+  width: 84%;
+  background: url(./images/star-rating-sprite.png); repeat-x;
+  background-position: 0 100%;
+  float: left;
+  height: 21px;
+  display:block;
+}
+
+.Star-ratings-sprite-rating-cansolo {
+  width: 80%;
+  background: url(./images/star-rating-sprite.png); repeat-x;
+  background-position: 0 100%;
+  float: left;
+  height: 21px;
+  display:block;
+}
+
+.Rating-comp {
+  font-size: 0.8em;
 }
 
 .Button-row {
