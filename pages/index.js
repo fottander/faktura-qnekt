@@ -86,7 +86,7 @@ const index = () => (
         </div>
         <section id="section02" className="demo">
         <div className= "Scrollbutton">
-        Läs mer om varje företag
+        <h4>Läs mer om varje företag</h4>
         </div>
           <a href="#comp-1" alt="Läs mer"><span></span></a>
         </section>
@@ -120,7 +120,7 @@ const index = () => (
         <p>Frilans finans är en väldigt bra tjänst för dig som ska frilansa eller börja fakturera utan företag som privatperson och inte har ett eget företag.</p>
         <p><strong>Telefon:</strong> 0771-15 10 00 <strong>Epost:</strong> info@frilansfinans.se</p>
         <p><strong>Adress:</strong> Frilans Finans, Stora Nygatan 7, 111 27 Stockholm</p>
-        <a href="https://www.allabolag.se/5568021199/frilans-finans-sverige-ab" alt="Frilans finans allabolag.se" target="_blank" rel="noopener noreferrer">Allabolag</a>
+        <a href="https://www.allabolag.se/5568021199/frilans-finans-sverige-ab" target="_blank" rel="noopener noreferrer">Frilans Finans - Allabolag.se</a>
       </div>
       <div className="Anchor" id="comp-2" />
       <div className="Comp-divider">
@@ -138,7 +138,7 @@ const index = () => (
         <p>Vill du ha en enkel användarvänlig tjänst med relativt låg avgift så är Cool Company absolut ett alternativ.</p>
         <p><strong>Telefon:</strong> 010-330 30 11 <strong>Epost:</strong> fakturera@coolcompany.com</p>
         <p><strong>Adress:</strong> Cool Company Skandinavien AB, Riddargatan 7A, 114 35 Stockholm</p>
-        <a href="https://www.allabolag.se/5564328390/cool-company-skandinavien-ab" alt="Cool Company allabolag.se" target="_blank" rel="noopener noreferrer">Allabolag</a>
+        <a href="https://www.allabolag.se/5564328390/cool-company-skandinavien-ab" target="_blank" rel="noopener noreferrer">Cool Company - Allabolag.se</a>
       </div>
       <div className="Anchor" id="comp-3" />
       <div className="Comp-divider">
@@ -156,7 +156,7 @@ const index = () => (
         <p>Ukko har en låg avgift och användarvänligt gränssnitt som enligt oss är oerhört enkelt.</p>
         <p><strong>Telefon:</strong> 010 884 48 98 <strong>Epost:</strong> Kundservice@ukko.se</p>
         <p><strong>Adress:</strong> SLP Group AB, Nortullsgatan 6, 113 29 Stockholm</p>
-        <a href="https://www.allabolag.se/5590683198/slp-group-ab" alt="Ukko allabolag.se" target="_blank" rel="noopener noreferrer">Allabolag</a>
+        <a href="https://www.allabolag.se/5590683198/slp-group-ab" target="_blank" rel="noopener noreferrer">Ukko - Allabolag.se</a>
       </div>
       <div className="Anchor" id="comp-4" />
       <div className="Comp-divider">
@@ -174,7 +174,7 @@ const index = () => (
         <p>Det bästa med Cansolo är deras låga avgift på 3.95% som är under snittet på den svenska marknaden. Det är en betydligt lägre avgift än de större aktörerna. Inte nog med det är deras system väldigt enkelt att använda och allt ingår som expressutbetalning, bra försäkringar med mera.</p>
         <p><strong>Telefon:</strong> 08-220 256 <strong>Epost:</strong> info@cansolo.se</p>
         <p><strong>Adress:</strong> Cansolo AB, Katarinavägen 14, 116 45 Stockholm</p>
-        <a href="https://www.allabolag.se/5590773593/cansolo-ab" alt="Cansolo allabolag.se" target="_blank" rel="noopener noreferrer">Allabolag</a>
+        <a href="https://www.allabolag.se/5590773593/cansolo-ab" target="_blank" rel="noopener noreferrer">Cansolo - Allabolag.se</a>
       </div>
       <div className="Anchor" id="comp-5" />
       <div className="Comp-divider">
@@ -188,7 +188,7 @@ const index = () => (
         <p>Firmify har en riktigt bra och låg avgift och deras tjänst är väldigt smidig och enkel att använda, samtidigt som du kan få extra avdrag för resor med mera och snabba utbetalningar.</p>
         <p><strong>Telefon:</strong> 010-490 10 07 <strong>Epost:</strong> info@firmify.se</p>
         <p><strong>Adress:</strong> Firmify AB, Box 120, 391 21 Kalmar</p>
-        <a href="https://www.allabolag.se/5568498405/firmify-ab" alt="Firmify allabolag.se" target="_blank" rel="noopener noreferrer">Allabolag</a>
+        <a href="https://www.allabolag.se/5568498405/firmify-ab" target="_blank" rel="noopener noreferrer">Firmify - Allabolag.se</a>
       </div>
     </div>
     <div id="section2" />
