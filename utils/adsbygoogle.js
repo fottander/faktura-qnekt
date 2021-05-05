@@ -1,17 +1,24 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from "react";
 
-const Ad = ({ slotId, width, height }) => {
+const AdBanner = () => {
   useEffect(() => {
-    (window.adsbygoogle = window.adsbygoogle || []).push({})
-  }, [])
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (err) {
+      console.log(err);
+    }
+  }, []);
 
   return (
     <ins
-      className='adsbygoogle'
-      style={{ display: 'inline-block', width: `${width}px`, height: `${height}px` }}
+      className="adsbygoogle adbanner-customize"
+      style={{
+        display: "block"
+      }}
       data-ad-client='5319889050898668'
-      data-ad-slot={slotId} />
-  )
-}
+      data-ad-slot=<slot-id>
+    />
+  );
+};
 
-export default Ad
+export default AdBanner;
